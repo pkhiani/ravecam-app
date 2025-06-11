@@ -24,23 +24,14 @@ const DownloadSection = () => {
           </p>
         </div>
 
-        {/* Download buttons */}
-        <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+        {/* Download button */}
+        <div className="flex justify-center items-center mb-16">
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0 px-12 py-8 text-xl font-bold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300"
           >
             <Download className="mr-3 h-6 w-6" />
             Download for iOS
-          </Button>
-          
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-2 border-white/30 text-white hover:bg-white/10 px-12 py-8 text-xl font-bold rounded-2xl backdrop-blur-sm"
-          >
-            <Smartphone className="mr-3 h-6 w-6" />
-            Coming to Android
           </Button>
         </div>
 

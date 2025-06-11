@@ -45,22 +45,14 @@ const HeroSection = () => {
           Upload videos from shows, join communities, and get seen by the artists you love.
         </p>
 
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+        {/* CTA Button */}
+        <div className="flex justify-center items-center mb-12">
           <Button 
             size="lg" 
             className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200"
           >
             <Download className="mr-2 h-5 w-5" />
             Download on App Store
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-2 border-white/20 text-white hover:bg-white/10 px-8 py-6 text-lg font-semibold rounded-2xl backdrop-blur-sm"
-          >
-            <Play className="mr-2 h-5 w-5" />
-            Watch Demo
           </Button>
         </div>
 
