@@ -24,7 +24,7 @@ const PrivacyPolicy = () => {
             Privacy Policy
           </h1>
           <p className="text-gray-300 text-lg">
-            Last updated: December 2024
+            Last updated: June 2025
           </p>
         </div>
 
@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-blue-400 mt-2">
-              privacy@ravecam.app
+              support@ravecam.app
             </p>
           </section>
         </div>
