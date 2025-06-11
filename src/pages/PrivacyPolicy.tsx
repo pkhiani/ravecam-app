@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
         <Link to="/">
           <Button 
             variant="outline" 
-            className="mb-8 border-white/20 text-white hover:bg-white/10 backdrop-blur-sm"
+            className="mb-8 border-white/20 text-black hover:bg-white/10 backdrop-blur-sm"
           >
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Home
