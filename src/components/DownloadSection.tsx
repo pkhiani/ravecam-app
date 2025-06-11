@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Download, Smartphone, Star } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const DownloadSection = () => {
   return (
@@ -64,9 +65,19 @@ const DownloadSection = () => {
 
         {/* Footer */}
         <div className="border-t border-gray-700/50 pt-8">
-          <p className="text-gray-400 text-sm">
-            © 2024 RAVECAM. Connecting fans through music.
-          </p>
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+            <p className="text-gray-400 text-sm">
+              © 2024 RAVECAM. Connecting fans through music.
+            </p>
+            <div className="flex space-x-6">
+              <Link 
+                to="/privacy-policy" 
+                className="text-gray-400 hover:text-white text-sm transition-colors"
+              >
+                Privacy Policy
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </section>
