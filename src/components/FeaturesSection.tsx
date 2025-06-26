@@ -1,4 +1,3 @@
-
 import { Card } from "@/components/ui/card";
 import { Upload, Users, Heart, Smartphone, Star, MessageCircle } from "lucide-react";
 
@@ -75,6 +74,14 @@ const FeaturesSection = () => {
               </p>
             </Card>
           ))}
+        </div>
+        {/* Pricing Button */}
+        <div className="flex justify-center mt-12">
+          <a href="/pricing">
+            <button className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-bold py-4 px-10 rounded-2xl text-lg shadow-lg transition-all duration-300">
+              View Pricing
+            </button>
+          </a>
         </div>
       </div>
     </section>

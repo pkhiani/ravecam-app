@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Download, Play } from "lucide-react";
@@ -47,13 +46,20 @@ const HeroSection = () => {
 
         {/* CTA Button */}
         <div className="flex justify-center items-center mb-12">
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200"
+          <a
+            href="https://apps.apple.com/ca/app/ravecam/id6747095030"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="inline-block"
           >
-            <Download className="mr-2 h-5 w-5" />
-            Download on App Store
-          </Button>
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0 px-8 py-6 text-lg font-semibold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-200"
+            >
+              <Download className="mr-2 h-5 w-5" />
+              Download on App Store
+            </Button>
+          </a>
         </div>
 
         {/* Phone mockup preview */}

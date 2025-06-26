@@ -26,13 +26,20 @@ const DownloadSection = () => {
 
         {/* Download button */}
         <div className="flex justify-center items-center mb-16">
-          <Button 
-            size="lg" 
-            className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0 px-12 py-8 text-xl font-bold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300"
+          <a
+            href="https://apps.apple.com/ca/app/ravecam/id6747095030"
+            target="_blank"
+            rel="nofollow noopener noreferrer"
+            className="inline-block"
           >
-            <Download className="mr-3 h-6 w-6" />
-            Download for iOS
-          </Button>
+            <Button 
+              size="lg" 
+              className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0 px-12 py-8 text-xl font-bold rounded-2xl shadow-2xl transform hover:scale-105 transition-all duration-300"
+            >
+              <Download className="mr-3 h-6 w-6" />
+              Download for iOS
+            </Button>
+          </a>
         </div>
 
         {/* Features preview */}
