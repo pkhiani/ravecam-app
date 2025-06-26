@@ -40,9 +40,9 @@ const Pricing = () => {
           <section>
             <h2 className="text-2xl font-bold mb-4 text-purple-400">💎 Pro Fan <span className='text-white text-lg font-normal'>($4.99/mo)</span></h2>
             <ul className="list-disc list-inside mt-4 text-gray-300 space-y-2">
-              <li>Unlimited uploads & longer videos</li>
+              <li>Unlimited uploads</li>
               <li>Boost visibility to artists</li>
-              <li>Custom badges & premium filters</li>
+              {/* <li>Custom badges & premium filters</li> */}
             </ul>
           </section>
           <section>
