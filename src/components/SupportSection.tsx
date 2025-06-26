@@ -30,7 +30,7 @@ const SupportSection = () => {
               onClick={() => window.location.href = 'mailto:support@ravecam.app'}
             >
               <Mail className="mr-2 h-4 w-4" />
-              support@ravecam.app
+              ravecamapp@gmail.com
             </Button>
             <span className="text-gray-400 text-sm">
               Response time: Usually within 24 hours

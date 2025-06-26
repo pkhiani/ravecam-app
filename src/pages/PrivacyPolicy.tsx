@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
               If you have any questions about this Privacy Policy, please contact us at:
             </p>
             <p className="text-blue-400 mt-2">
-              support@ravecam.app
+              ravecamapp@gmail.com
             </p>
           </section>
         </div>

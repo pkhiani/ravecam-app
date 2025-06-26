@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Download, Smartphone, Star } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -75,6 +74,12 @@ const DownloadSection = () => {
                 className="text-gray-400 hover:text-white text-sm transition-colors"
               >
                 Privacy Policy
+              </Link>
+              <Link 
+                to="/eula" 
+                className="text-gray-400 hover:text-white text-sm transition-colors"
+              >
+                Terms of Service
               </Link>
             </div>
           </div>
