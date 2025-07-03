@@ -1,73 +1,108 @@
-# Welcome to your Lovable project
+# RAVECAM - Connect Through Concerts
 
-## Project info
+**Built by Fans. Seen by Artists.**
 
-**URL**: https://lovable.dev/projects/cd848162-e1cb-49e3-a53a-3c5f4d80a390
+RAVECAM is a mobile app that connects music fans through shared concert experiences. Upload videos from shows, join artist communities, and get seen by the artists you love.
 
-## How can I edit this code?
+## 🌟 What is RAVECAM?
 
-There are several ways of editing your application.
+RAVECAM is the platform for fans who feel music. Whether it's that goosebump moment when the beat drops or a crowd-surfing blur of energy — every video you post brings you closer to the music, the fans, and the artist.
 
-**Use Lovable**
+### Key Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cd848162-e1cb-49e3-a53a-3c5f4d80a390) and start prompting.
+- **Upload Concert Clips**: Share videos directly from your phone — let your experience shine
+- **Join Artist Communities**: Each artist has a home. Discover fan content, leave comments, and react in real time
+- **Like & Comment on Videos**: Support others in the community, find friends through shared hype, and be part of the conversation
+- **Boost Your Profile**: Stand out to artists, upload longer content, and increase visibility with optional upgrades
+- **Simple & Fast Uploads**: Optimized for mobile. No editing required. Just vibes
+- **Real-time Reactions**: Connect instantly with fans during and after concerts. Feel the energy together
 
-Changes made via Lovable will be committed automatically to this repo.
+## 💰 Pricing
 
-**Use your preferred IDE**
+### 🆓 Free
+- Upload 3 short videos/week
+- Basic community access
+- Comment & like videos
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 💎 Pro Fan ($4.99/mo)
+- Unlimited uploads & longer videos
+- Boost visibility to artists
+- Custom badges & premium filters
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🎤 Future
+- In-app tipping
+- Creator revenue tools
+- Sponsored content/events
 
-Follow these steps:
+## 📱 Download
+
+Download RAVECAM on the App Store:
+[Download for iOS](https://apps.apple.com/ca/app/ravecam/id6747095030)
+
+## 🌐 Website
+
+This repository contains the official RAVECAM website built with modern web technologies.
+
+### Pages
+- **Home**: Main landing page with features and download CTA
+- **Privacy Policy**: Data collection and usage information
+- **EULA**: End User License Agreement
+- **Pricing**: Subscription plans and features
+
+## 🛠️ Technology Stack
+
+This website is built with:
+
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI framework
+- **shadcn/ui** - Beautiful component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
+
+## 🚀 Development
+
+### Prerequisites
+
+- Node.js & npm - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+### Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd ravecam-app
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```sh
+npm run build
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📄 Legal
 
-## What technologies are used for this project?
+- [Privacy Policy](/privacy-policy)
+- [End User License Agreement (EULA)](/eula)
 
-This project is built with:
+## 🤝 Contact
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+For support or questions, contact us at: ravecamapp@gmail.com
 
-## How can I deploy this project?
+## 📄 License
 
-Simply open [Lovable](https://lovable.dev/projects/cd848162-e1cb-49e3-a53a-3c5f4d80a390) and click on Share -> Publish.
+© 2025 RAVECAM. All rights reserved.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Built by Fans. Seen by Artists.** 🎤
