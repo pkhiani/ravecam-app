@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Download, Play } from "lucide-react";
+import { Download } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden">
+    <section className="relative py-20 flex items-center justify-center px-4 overflow-hidden">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 to-purple-600/20" />
       
@@ -17,7 +17,7 @@ const HeroSection = () => {
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <img 
-              src="/lovable-uploads/d03977f9-e0b5-43ef-b37c-a9eff05de166.png" 
+              src="/lovable-uploads/logo.png" 
               alt="RAVECAM" 
               className="w-32 h-32 rounded-3xl shadow-2xl"
             />
@@ -45,7 +45,7 @@ const HeroSection = () => {
         </p>
 
         {/* CTA Button */}
-        <div className="flex justify-center items-center mb-12">
+        <div className="flex justify-center items-center">
           <a
             href="https://apps.apple.com/ca/app/ravecam/id6747095030"
             target="_blank"
@@ -60,24 +60,6 @@ const HeroSection = () => {
               Download on App Store
             </Button>
           </a>
-        </div>
-
-        {/* Phone mockup preview */}
-        <div className="relative mx-auto max-w-sm">
-          <div className="relative">
-            <div className="bg-gradient-to-b from-gray-800 to-gray-900 rounded-[3rem] p-2 shadow-2xl">
-              <div className="bg-black rounded-[2.5rem] p-4">
-                <div className="bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-[2rem] h-80 flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-purple-400 rounded-2xl mx-auto mb-4 flex items-center justify-center">
-                      <Play className="h-8 w-8 text-white" />
-                    </div>
-                    <p className="text-white text-sm">Concert clips coming to life</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

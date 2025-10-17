@@ -42,7 +42,7 @@ const DownloadSection = () => {
           </a>
         </div>
 
-        {/* Features preview */}
+        {/* Features preview
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
           <div className="text-center">
             <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
@@ -67,7 +67,7 @@ const DownloadSection = () => {
             <h3 className="text-lg font-bold text-white mb-2">Instant Upload</h3>
             <p className="text-gray-400">Share moments as they happen, no editing needed</p>
           </div>
-        </div>
+        </div> */}
 
         {/* Footer */}
         <div className="border-t border-gray-700/50 pt-8">

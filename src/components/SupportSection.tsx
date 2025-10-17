@@ -4,7 +4,7 @@ import { Mail } from "lucide-react";
 
 const SupportSection = () => {
   return (
-    <section className="py-20 px-4 relative">
+    <section className="py-8 px-4 relative">
       <div className="max-w-4xl mx-auto">
         {/* Section header */}
         <div className="text-center mb-12">
